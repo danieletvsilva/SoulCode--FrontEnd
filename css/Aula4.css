@@ -1,0 +1,71 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgba(246,246,237,1) 38%, rgba(173, 247, 247, 0.89) 98%);
+}
+table{
+    table-layout: fixed;
+    text-align: center;
+    border: 5px solid black;
+    margin: auto;
+}
+
+th[colspan]{
+    font-size: large;
+    border: 2px solid black;
+}
+td, th, td{
+    border: 2px solid black;
+    font-size: small;
+}
+h1{
+    text-align: center;
+    color: rgba(3, 26, 28, 0.899);
+}
+h2{
+    text-align: center;
+}
+a{
+    font-size: larger;
+}
+
+p{
+    font-size: larger;
+    text-align: center;
+}
+footer{
+    font-size: larger;
+    background-color: rgba(120, 187, 194, 0.899);
+}
+
+div{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+
+#nav-principal{
+    background-color: rgba(71, 174, 186, 0.899);
+}
+
+#nav-principal ul{
+    max-width: 100%;
+    padding: 0;
+    list-style: none;
+}
+#nav-principal ul li{
+    display: inline;
+}
+#nav-principal ul li a{
+    color: black;
+    font-size: large;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background.4s;
+}
+#nav-principal ul li a:hover{
+    background-color: rgb(67, 156, 168);
+}
