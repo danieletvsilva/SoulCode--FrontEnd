@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/vector-background-seamless-filme-retro_2065-725.jpg?w=740&t=st=1680990996~exp=1680991596~hmac=d912eb946bad8e6be025d05c62f2c59e6bcebaff778ca97fc98be5d310b4e93b);
+}
+.top{    
+    font-family: sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 570px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    opacity: 0.9;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 30px;
+}
+
+.top .top-form h1{    
+    margin: 30px;
+    text-align: center;
+    font-size: x-large;
+    color: #011208f9;    
+}
+
+.top .top-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 15%;
+    padding-left: 15%;  
+}
+.top .top-form input{  
+    width: 100%;
+    font-size: 14px;
+    color: #0c0c0c;
+    border: none;
+    border-bottom: 1px solid #fff7f7;
+    background: #d0cbcb;
+    margin-bottom: -15px;
+}
+
+.top .top-form label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.top .top-form p{
+    text-align: center;
+}
+
+.top .top-form input[type="submit"]{
+    background-color: #011208f9;
+    color: #fff;
+    width: 40%;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 30%;   
+}
+
+.top-form input[type="checkbox"]{
+    position: relative;
+    width: 30px;
+}
